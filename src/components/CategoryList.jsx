@@ -31,7 +31,7 @@ export const CategoryList = ({data, setSelectedCategory}) =>{
             <li 
             key={category.idCategory}
             onClick={() => {setSelectedCategory(category.strCategory)}}
-            className="cursor-pointer px-4 rounded-md hover:bg-sky-600 py-1 active:bg-sky-950 flex justify-between">
+            className="cursor-pointer px-4 rounded-md hover:bg-orange-400 py-1 active:bg-sky-100 flex justify-between">
               <span>{category.strCategory}</span>
 
               <img src={category.strCategoryThumb} alt="" className="w-8"/>
